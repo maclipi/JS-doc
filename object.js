@@ -106,3 +106,27 @@ ShiftArray(initialArray);
 ShiftArray(initialArray)
 console.log(initialArray);//output [5,6]
 // ----------------------------------------------------- SHIFT ELEMENT FROM THE ARRAY  START ----------------------------------------
+
+
+// ---------------------------------- reversing of the Array START ------------------------
+
+let reverseMe = [1,2,3,4,5];
+let reversedMe = reverseMe.reverse();
+console.log(reversedMe);
+
+// ---------------------------------- reversing of the Array END ---------------------------
+
+
+
+//  -------------------------------- creating array from  OBJECT START   ---------------------
+
+const arrayLike = { length: 3, 0: 'a', 1: 'b',2: 3};
+
+const arr = Array.from(arrayLike);
+console.log(arr) // Print array from the object passed inside the function
+for (const x of arr) { // OK, iterable
+    console.log(x);
+}
+
+//  -------------------------------- creating array from  OBJECT END   ---------------------
+
