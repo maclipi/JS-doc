@@ -1,3 +1,11 @@
+/**
+@type of arry
+0 index
+1 index
+n index
+*/
+
+
 //create Sample Array to Play around.
 
 let playArray = [1,2,3,4,5];  // Array of consicutive 5 numbers.

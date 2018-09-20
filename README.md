@@ -11,4 +11,5 @@ Covered major functionlity of the array join,list,append,delete,and many others.
 ``` 
 Clone the code and then 
 node object.js
+and you will see the output
 ```
